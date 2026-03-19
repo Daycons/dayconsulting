@@ -9,9 +9,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-/* ------------------------------------------------
+/* ═══════════════════════════════════════════════════
    RESET & VARIABLES
------------------------------------------------------*/
+═══════════════════════════════════════════════════ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -62,9 +62,9 @@ body:not(:hover) .cursor, body:not(:hover) .cursor-ring { opacity: 0; }
 
 a, button { cursor: none; }
 
-/* ------------------------------------------------
+/* ═══════════════════════════════════════════════════
 NAV
---------------------------------------------------- */
+═══════════════════════════════════════════════════ */
 nav {
 position: fixed; top: 0; left: 0; right: 0;
 z-index: 100;
@@ -131,9 +131,9 @@ font-weight: 500;
 
 .menu-toggle { display: none; }
 
-/* ------------------------------------------------
+/* ═══════════════════════════════════════════════════
 HERO
---------------------------------------------------- */
+═══════════════════════════════════════════════════ */
 #hero {
 min-height: 100vh;
 display: flex; align-items: center;
@@ -281,9 +281,9 @@ width: 1px; height: 50px;
 background: linear-gradient(to bottom, var(–gold), transparent);
 }
 
-/* ------------------------------------------------
+/* ═══════════════════════════════════════════════════
 SECTIONS COMMUNES
---------------------------------------------------- */
+═══════════════════════════════════════════════════ */
 section { padding: 120px 5vw; position: relative; }
 
 .section-label {
@@ -323,9 +323,9 @@ transition: opacity 0.8s var(–ease), transform 0.8s var(–ease);
 }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 
-/* ------------------------------------------------
+/* ═══════════════════════════════════════════════════
 SERVICES
---------------------------------------------------- */
+═══════════════════════════════════════════════════ */
 #services { background: var(–ink); }
 
 .services-header {
