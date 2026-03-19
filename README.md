@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
+    <title>DAY Consulting</title>
     <style>
-        /* Corrected CSS with double hyphens instead of em-dash variable syntax */
         :root {
-            --main-color: #3498db;
-            --other-color: #e74c3c;
+            --primary-color: #333;
+            --secondary-color: #555;
+            --background-color: #fff;
+            --text-color: #000;
+            /* Additional CSS Variables */
         }
+        /* Other CSS styles */
     </style>
 </head>
 <body>
-    <h1>Welcome to Your Page</h1>
-    <p>This is an example paragraph with improved style.</p>
-
+    <h1>Welcome to DAY Consulting</h1>
+    <p>Your trusted partner in business consulting.</p>
     <script>
-        // Corrected JavaScript error
-        let value = 5 * 0.12;
-        console.log(value);
+        let my = 0;
+        let ry = 0;
+        // Corrected JavaScript line
+        ry += (my - ry) * 0.12;
+        console.log(ry);
     </script>
+    <!-- Other HTML content -->
 </body>
 </html>
